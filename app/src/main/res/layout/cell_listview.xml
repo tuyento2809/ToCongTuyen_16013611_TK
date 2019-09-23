@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="28sp"
+            android:textColor="#11ffdf"
+            android:id="@+id/txtName"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Woasd"/>
+        <TextView
+            android:textSize="24sp"
+            android:textColor="#ff11"
+            android:id="@+id/txtGia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Woasd"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtNuoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My asjd"/>
+</LinearLayout>
